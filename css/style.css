@@ -18,12 +18,14 @@
     padding: 30px;
     text-align: center;
     margin-bottom: 10px;
-    display: block;
+    display: flex;
     text-decoration-color: whitesmoke;
+    gap: 1rem;
 }
 
 .divItem {
-    display: inline-block;
+    
+    /* display: inline-block; */
     border-style: inset;
     border-radius: 15px;
     border-width: 1px;
@@ -32,6 +34,7 @@
     width: 25%;
     background-size: cover;
     opacity: 50;
+    flex: 1;
     
 }
 
